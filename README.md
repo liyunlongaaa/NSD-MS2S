@@ -26,6 +26,7 @@ print(out.shape)  # B, N, T
 
 ## Training
 0. Data simulation
+
 We generated simulated data by [https://github.com/jsalt2020-asrdiar/jsalt2020_simulate](https://github.com/jsalt2020-asrdiar/jsalt2020_simulate) for CHiME-7 DASR Challenge, for more details please see our tech report [paper](doc/CHiME_2023_DASR_wang.pdf).
 
 1. Extract fbank
