@@ -1,0 +1,71 @@
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6
+35 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S26      5.01  2.42   1.12    8.55   4              4
+S34      2.67  5.54   0.80    9.01   4              4
+S33      6.96  6.02   1.67    14.66  4              4
+S29      5.42  9.69   2.58    17.69  4              4
+S28      9.15  12.48  3.07    24.69  4              4
+ALL      6.22  8.15   2.10    16.47  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_dipco_dev_all_CH_f1_fusion/rttm_th0.35_pp
+40 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S26      3.87  2.81   1.12    7.80   4              4
+S34      1.90  6.11   0.89    8.90   4              4
+S33      5.86  6.65   1.70    14.21  4              4
+S29      3.92  11.02  2.33    17.27  4              4
+S28      7.22  13.87  3.02    24.11  4              4
+ALL      4.82  9.14   2.03    15.99  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_dipco_dev_all_CH_f1_fusion/rttm_th0.40_pp
+45 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S26      2.83  3.32   1.06    7.21   4              4
+S34      1.48  6.52   0.87    8.86   4              4
+S33      5.38  7.35   1.60    14.33  4              4
+S29      2.87  12.39  2.33    17.60  4              4
+S28      6.01  15.18  2.99    24.19  4              4
+ALL      3.89  10.13  2.00    16.02  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_dipco_dev_all_CH_f1_fusion/rttm_th0.45_pp
+50 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S26      1.89  3.91   1.20    6.99   4              4
+S34      0.82  7.30   0.81    8.93   4              4
+S33      5.01  8.18   1.34    14.52  4              4
+S29      2.12  13.74  2.15    18.00  4              4
+S28      4.93  16.79  2.77    24.48  4              4
+ALL      3.08  11.27  1.86    16.21  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_dipco_dev_all_CH_f1_fusion/rttm_th0.50_pp
+55 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S26      1.38  4.63   1.06    7.07   4              4
+S34      0.71  8.03   0.76    9.50   4              4
+S33      4.36  8.79   1.14    14.29  4              4
+S29      1.48  15.52  1.88    18.88  4              4
+S28      3.48  18.79  2.61    24.89  4              4
+ALL      2.32  12.63  1.69    16.63  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_dipco_dev_all_CH_f1_fusion/rttm_th0.55_pp
+60 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S26      1.04  5.47   0.70    7.21   4              4
+S34      0.63  8.81   0.57    10.01  4              4
+S33      3.64  9.80   0.85    14.29  4              4
+S29      1.17  17.24  1.55    19.95  4              4
+S28      2.47  20.91  2.38    25.76  4              4
+ALL      1.78  14.08  1.40    17.26  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_dipco_dev_all_CH_f1_fusion/rttm_th0.60_pp
+65 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S26      0.92  6.12   0.69    7.73   4              4
+S34      0.56  9.50   0.56    10.63  4              4
+S33      3.02  10.87  0.59    14.48  4              4
+S29      0.93  19.28  1.14    21.36  4              4
+S28      1.66  23.17  2.06    26.89  4              4
+ALL      1.38  15.63  1.16    18.17  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_dipco_dev_all_CH_f1_fusion/rttm_th0.65_pp

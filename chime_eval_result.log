@@ -1,0 +1,64 @@
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6
+35 
+collar 0.25
+session  FA     MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S21      12.62  7.48   6.73    26.83  4              4
+S01      9.33   13.80  4.15    27.28  4              4
+S19      12.56  10.83  4.65    28.04  4              4
+S20      9.25   23.60  4.36    37.22  4              4
+ALL      10.95  13.73  4.96    29.64  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_chime7_eval_all_CH_f1_fusion/rttm_th0.35_pp
+40 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S21      9.68  8.92   6.82    25.41  4              4
+S19      9.66  12.31  4.76    26.74  4              4
+S01      7.73  15.48  3.93    27.14  4              4
+S20      6.98  24.75  4.32    36.06  4              4
+ALL      8.53  15.17  4.95    28.65  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_chime7_eval_all_CH_f1_fusion/rttm_th0.40_pp
+45 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S21      7.20  10.58  6.85    24.63  4              4
+S19      7.18  13.80  4.81    25.79  4              4
+S01      6.27  16.99  3.74    27.00  4              4
+S20      5.08  25.96  4.42    35.45  4              4
+ALL      6.46  16.65  4.93    28.04  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_chime7_eval_all_CH_f1_fusion/rttm_th0.45_pp
+50 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S21      5.22  12.42  6.78    24.42  4              4
+S19      5.51  15.82  4.52    25.85  4              4
+S01      5.24  18.53  3.45    27.22  4              4
+S20      3.55  27.46  4.43    35.45  4              4
+ALL      4.92  18.38  4.77    28.06  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_chime7_eval_all_CH_f1_fusion/rttm_th0.50_pp
+55 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S21      3.88  15.05  6.09    25.02  4              4
+S19      4.21  18.00  4.21    26.41  4              4
+S01      4.53  20.40  3.06    27.99  4              4
+S20      2.73  29.33  4.02    36.08  4              4
+ALL      3.87  20.51  4.32    28.71  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_chime7_eval_all_CH_f1_fusion/rttm_th0.55_pp
+60 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S21      3.04  17.89  5.33    26.26  4              4
+S19      3.19  20.60  3.78    27.57  4              4
+S01      3.78  22.10  2.70    28.57  4              4
+S20      2.17  31.35  3.61    37.14  4              4
+ALL      3.08  22.80  3.83    29.71  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_chime7_eval_all_CH_f1_fusion/rttm_th0.60_pp
+65 
+collar 0.25
+session  FA    MISS   SPKERR  DER    ORACLE_SPKNUM  DIARIZED_SPKNUM
+S21      2.31  20.82  4.67    27.80  4              4
+S19      2.47  23.44  3.27    29.19  4              4
+S01      3.17  24.02  2.37    29.56  4              4
+S20      1.72  33.58  3.33    38.62  4              4
+ALL      2.44  25.27  3.39    31.11  0              0
+exp/S2S/Batchsize20_4speakers_Segment800s_Mixup0.5_CHiME6MAMSELabel_SimuCHiME6_Mixer6MAMSELabel_SimuMixer6_SimuDipcoDevNoise_all_data_512_all0Dropout_6layers_weight_input_DIM/MULTI_MAM_SE_S2S_model.model6_chime7_eval_all_CH_f1_fusion/rttm_th0.65_pp
