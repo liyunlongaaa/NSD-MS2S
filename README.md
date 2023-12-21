@@ -1,11 +1,13 @@
 # NSD-MS2S
-This repository is a pytorch implementation of the paper "Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture", for more details please see [paper](doc/ICASS2024.pdf)
+This repository is an official pytorch implementation of the paper "Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture", for more details please see [paper](doc/ICASS2024.pdf). Our previous work NSD-MA-MSE can be found in this [repository](https://github.com/Maokui-He/NSD-MA-MSE), welcome to star!
 ![image](doc/NN_v3.pdf)
 
 ## Simple Usage
 
 ```
 #local/model_S2S_weight_input_DIM.py
+
+from model_S2S_weight_input_DIM import MULTI_MAM_SE_S2S_model
 from config import configs3_4Speakers_ivector_ivector128_xvectors128_S2S_MA_MSE_DIM as config_train
 
 net = MULTI_MAM_SE_S2S_model(config_train).cuda()
@@ -36,7 +38,7 @@ local/extract_feature.sh --stage 1 --nj $nj \
       --rttm data/$data/diarized.all.rttm --data $data
 ```
 
-2. After preparing the traning data in the format needed for the local/run_MAMSE_S2S_chime7_ws_input_DIM.py, e.g.
+2. After preparing the training data in the format needed for the local/run_MAMSE_S2S_chime7_ws_input_DIM.py, e.g.
 
 ```
 #local/run_MAMSE_S2S_chime7_ws_input_DIM.py
