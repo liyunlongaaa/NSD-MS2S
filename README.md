@@ -1,5 +1,5 @@
 # NSD-MS2S
-This repository is an official pytorch implementation of the paper "Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture", for more details please see [paper](doc/ICASS2024.pdf). Our previous work NSD-MA-MSE can be found in this [repository](https://github.com/Maokui-He/NSD-MA-MSE), if your training data is not particularly adequate, please prioritize NSD-MA-MSE, it usually leads to better results in our experience. Have fun!
+This repository is an official pytorch implementation of the paper "Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture", for more details please see [paper](doc/ICASS2024.pdf). Our previous work **NSD-MA-MSE** can be found in this [repository](https://github.com/Maokui-He/NSD-MA-MSE), if your training data is not particularly adequate, please prioritize **NSD-MA-MSE**, it usually leads to better results in our experience. Have fun!
 ![image](doc/NN_v3.jpg)
 
 ## Requirements
