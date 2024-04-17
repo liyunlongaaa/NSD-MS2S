@@ -92,12 +92,16 @@ Models fusion decoding script (decode_S2S_models_fusion.sh) have similar usage.
 If you find this code useful in your research, please consider to cite the following papers:
 
 ```bibtex
-@article{yang2023neural,
-  title={Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture},
+@INPROCEEDINGS{10446661,
   author={Yang, Gaobin and He, Maokui and Niu, Shutong and Wang, Ruoyu and Yue, Yanyan and Qian, Shuangqing and Wu, Shilong and Du, Jun and Lee, Chin-Hui},
-  journal={arXiv preprint arXiv:2309.09180},
-  year={2023}
-}
+  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={11626-11630},
+  keywords={Codes;Error analysis;Memory management;Graphics processing units;Oral communication;Signal processing;Acoustics;CHiME challenge;speaker diarization;memory-aware speaker embedding;sequence-to-sequence architecture},
+  doi={10.1109/ICASSP48485.2024.10446661}}
 
 @ARTICLE{10093997,
   author={He, Mao-Kui and Du, Jun and Liu, Qing-Feng and Lee, Chin-Hui},
