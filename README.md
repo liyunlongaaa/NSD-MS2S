@@ -67,7 +67,7 @@ python -m torch.distributed.launch --nproc_per_node=8 local/run_MAMSE_S2S_chime7
 You can check the decoding results with the following decode commands (Case4 below):
 
 ```
-# single model decode, it might be a little better compared to the results of the paper.
+# single model decode.
 bash local/decode_S2S_model.sh --stage 3 --data chime7_eval_all_CH --diarized_rttm data/chime7_eval_all_CH/f1.rttm --affix f1
 
 # models fusion decode, there are no results here, just as an example
