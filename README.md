@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 #local/model_S2S_weight_input_DIM.py
 
-from model_S2S_weight_input_DIM import MULTI_MAM_SE_S2S_model
+from model_S2S_weight_input_DIM import MULTI_MAM_SE_S2S_model #NSD-MS2S
 from config import configs3_4Speakers_ivector_ivector128_xvectors128_S2S_MA_MSE_DIM as config_train
 
 net = MULTI_MAM_SE_S2S_model(config_train).cuda()
@@ -26,10 +26,21 @@ mask = torch.randint(0, 2, size=(B, 4, 800), dtype=torch.int).cuda() # B, N, T
 with torch.no_grad():
     out = net(data, overall_embedding, mask)
 print(out.shape)  # B, N, T
+
+
+from model_S2S_weight_input_DIM_SSMoE import MULTI_MAM_SE_S2S_MOE_model_learnable_IO_moe_from_config  #NSD-MS2S-SSMoE
+from config import configs3_4Speakers_ivector_ivector128_xvectors128_S2S_MA_MSE_DIM_MOE as config_train
+
+net = MULTI_MAM_SE_S2S_MOE_model_learnable_IO_moe_from_config(config_train).cuda()
+
+with torch.no_grad():
+    out = net(data, overall_embedding, mask)
+print(out.shape)  # (B, N, T)
 ```
 ## Results
 ![image](doc/results.jpg)
-
+![image](doc/dihard.jpg)
+NSD-MS2S-SSMoE demonstrates modest improvements in performance than NSD-MS2S on DIHARD-III eval set.
 ## Training
 0. Data simulation
 
